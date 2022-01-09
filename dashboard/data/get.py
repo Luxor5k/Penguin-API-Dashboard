@@ -9,3 +9,16 @@ def get_stats(id, family):
 
 def get_avg_bdmass():
     return requests.get(url+f"/avg/island/bdmass").json()
+
+def get_avg_fliplength():
+    return requests.get(url+f"/avg/island/fliplength").json()
+
+def get_avg_culmendepth():
+    return requests.get(url+f"/avg/island/culmendepth").json()
+
+def get_avg_culmenlength():
+    return requests.get(url+f"/avg/island/culmenlength").json()
+
+def get_stats_species():
+    return requests.get(url+f"/avg/all/culmendepth").json()
+

@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home, seguimiento
+from apps import home, seguimiento, avg_page
 
 app = MultiApp()
 
@@ -12,5 +12,6 @@ app = MultiApp()
 # Add all your application here
 app.add_app("Home", home.app)
 app.add_app("Seguimiento de pingüinos", seguimiento.app)
+app.add_app("Promedios en las islas", avg_page.app)
 # The main app
 app.run()

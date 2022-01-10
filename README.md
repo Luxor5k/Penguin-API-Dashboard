@@ -40,4 +40,5 @@ Streamlit run:
      - [ ] A penguin to another
      - [ ] A penguin to average data
  - [ ] Show the location of islands in a map
+ - [ ] Add data through the page
   
